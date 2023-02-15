@@ -32,9 +32,9 @@ slider.addEventListener("mousedown", function() {
 slider.addEventListener("mouseup", function() {
   slideInterval = setInterval(function() {
     plusSlides(1);
-  }, 3000);
+  }, 2000);
 });
 
 slideInterval = setInterval(function() {
   plusSlides(1);
-}, 3000);
+}, 2000);
