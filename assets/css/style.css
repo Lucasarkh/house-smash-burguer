@@ -24,6 +24,10 @@ body {
   margin: 0 auto;  
 }
 
+.linha3 {
+  display: none;
+}
+
 .bg-body {
     position: absolute;
     width: 100%;
@@ -41,11 +45,16 @@ body {
     color: #fff;
   }
 
+  .nav-img {
+    width: 60px;
+    margin-left: 20px;
+  }
+
 .img-logo {
     width: 100px;
 
 }
-  nav a {
+  .nav-a {
     color: #fff;
     background: rgba(165, 42, 42, 0.342);
     padding: 5px 15px;
@@ -87,7 +96,6 @@ body {
   .slider img:first-child {
     opacity: 1;
   }
-  
 
   .apresentacao {
     color: white;
@@ -100,11 +108,18 @@ body {
     padding-top: 40px;
   }
 
+  .delivery {
+    display: none;
+  }
+
   .funcionamento {
     padding-top: 20px;
   }
 
-  .funcionamento-h1, .local-h1, .maintop-h1 {
+  .funcionamento-h1,
+  .local-h1,
+  .maintop-h1,
+  .footer-h1 {
     text-align: center;
     color: white;
   }
@@ -165,6 +180,29 @@ body {
     margin-bottom: 0;
   }
 
+
+  .nav-img {
+    display: none;
+  }
+
+  .delivery {
+    display: block;
+  }
+
+  .delivery-h1 {
+    text-align: center;
+    color: white;
+  }
+
+  .linha3 {
+    display: block;
+    border: none;
+    width: 70vw;
+    height: 5px;
+    background: rgba(201, 82, 35, 0.5);
+    border-radius: 10px 10px;
+    margin: 0 auto 10px auto;      
+  }
 
 
 
