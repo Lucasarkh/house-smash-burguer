@@ -1,8 +1,13 @@
 
-body {
-    padding: 0;
-    margin: 0;
-    font-family: 'League Spartan', sans-serif;
+.bg-rules {
+  padding: 0;
+  margin: 0;
+  font-family: 'League Spartan', sans-serif;
+ }
+
+.bg-color {
+  background: url(../img/body_background.jpg) center/cover;
+
 }
 
 .linha {
@@ -28,128 +33,119 @@ body {
   display: none;
 }
 
-.bg-body {
-    position: absolute;
-    width: 100%;
-    height: 2000px;
-    object-fit:fill;
-    z-index: -1000;
+.navigation {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background: rgb(112,61,0);
+  background: linear-gradient(90deg, rgba(112,61,0,0.5) 0%, rgba(77,33,0,0.5) 35%, rgba(32,5,0,0.5) 100%);
+  color: #fff;
 }
 
-.navigation {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    background: rgb(112,61,0);
-    background: linear-gradient(90deg, rgba(112,61,0,0.5) 0%, rgba(77,33,0,0.5) 35%, rgba(32,5,0,0.5) 100%);
-    color: #fff;
-  }
-
-  .nav-img {
-    width: 60px;
-    margin-left: 20px;
-  }
+.nav-img {
+  width: 60px;
+  margin-left: 20px;
+}
 
 .img-logo {
     width: 100px;
 
 }
-  .nav-a {
-    color: #fff;
-    background: rgba(165, 42, 42, 0.342);
-    padding: 5px 15px;
-    border-radius: 10px 10px;
-    text-decoration: none;
-    margin-left: 20px;
-    vertical-align: center;
-  }
+.nav-a {
+  color: #fff;
+  background: rgba(165, 42, 42, 0.342);
+  padding: 5px 15px;
+  border-radius: 10px 10px;
+  text-decoration: none;
+  margin-left: 20px;
+  vertical-align: center;
+}
 
-  nav a:hover {
-    background: brown;
-    transition: 0.3s;
-  }
+.nav-a:hover {
+  background: brown;
+  transition: 0.3s;
+}
 
-  .slider {
-    position: relative;
-    width: 400px;
-    height: 400px;
-    overflow: hidden;
-    margin: 0 auto;
-  }
+.slider {
+  position: relative;
+  width: 400px;
+  height: 400px;
+  overflow: hidden;
+  margin: 0 auto;
+}
   
-  .slider img {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    opacity: 0;
-    transition: opacity 0.5s ease-in-out;
-    border-radius: 20px 20px;
-    object-fit: cover;
-  }
+.slider img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  transition: opacity 0.5s ease-in-out;
+  border-radius: 20px 20px;
+  object-fit: cover;
+}
   
-  .slider img.active {
-    opacity: 1;
-  }
+.slider img.active {
+  opacity: 1;
+}
   
-  .slider img:first-child {
-    opacity: 1;
-  }
+.slider img:first-child {
+  opacity: 1;
+}
 
-  .apresentacao {
-    color: white;
-    font-size: 15px;
-    padding-left: 40px;
-    
-  }
+.apresentacao {
+  color: white;
+  font-size: 15px;
+  padding-left: 40px;
+}
 
-  .container {
-    padding-top: 40px;
-  }
+.container {
+  padding-top: 40px;
+}
 
-  .delivery {
-    display: none;
-  }
+.delivery {
+  display: none;
+}
 
-  .funcionamento {
-    padding-top: 20px;
-  }
+.funcionamento {
+  padding-top: 20px;
+}
 
-  .funcionamento-h1,
-  .local-h1,
-  .maintop-h1,
-  .footer-h1 {
-    text-align: center;
-    color: white;
-  }
+.funcionamento-h1,
+.local-h1,
+.maintop-h1,
+.footer-h1 {
+  text-align: center;
+  color: white;
+}
 
-  .funcionamento-h1-gradient {
-    font-size: 30px;
-    text-align: center;
-    background: -webkit-linear-gradient(54deg ,#ffb451, #ff5f1f);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-  }
+.funcionamento-h1-gradient {
+  font-size: 30px;
+  text-align: center;
+  background: -webkit-linear-gradient(54deg ,#ffb451, #ff5f1f);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
 
-  .funcionamento-p {
-    font-size: 20px;
-    text-align: center;
-    color: #fff;
-    font-weight: 100;
-  }
-  .funcionamento-img img {
-    width: 100%;
-    height: 400px;
-    border-radius: 20px 20px;
-    object-fit: cover;
-  }
+.funcionamento-p {
+  font-size: 20px;
+  text-align: center;
+  color: #fff;
+  font-weight: 100;
+}
+.funcionamento-img img {
+  width: 100%;
+  height: 400px;
+  border-radius: 20px 20px;
+  object-fit: cover;
+}
 
-  .map {
-    border-radius: 20px 20px;
-    width: 60vw;
-    height: 400px;
-  }
+.map {
+  border-radius: 20px 20px;
+  width: 60vw;
+  height: 400px;
+}
 
 @media (max-width: 941px) {
   
