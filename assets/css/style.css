@@ -1,20 +1,16 @@
 
-.bg-rules {
+.bg__rules {
   padding: 0;
   margin: 0;
   font-family: 'League Spartan', sans-serif;
  }
 
-.bg-color {
+.bg__color {
   background: url(../img/body_background.jpg) center/cover;
 
 }
 
-.linha3 {
-  display: none;
-}
-
-.navigation {
+.nav {
   display: flex;
   justify-content: space-around;
   align-items: center;
@@ -23,21 +19,21 @@
   color: #fff;
 }
 
-.header-h1 {
+.nav__h1 {
   margin: 0;
   font-size: 25px;
 }
 
-.nav-img {
+.nav__img {
   width: 40px;
   margin-left: 20px;
 }
 
-.img-logo {
+.nav__logo {
     width: 100px;
 
 }
-.nav-a {
+.nav__link {
   color: #fff;
   text-decoration: none;
   background-color: #ffffff4f;
@@ -46,7 +42,7 @@
   margin: 0 20px;
 }
 
-.nav-a1 {
+.nav__link--margin {
   color: #fff;
   text-decoration: none;
   background-color: #ffffff4f;
@@ -55,15 +51,15 @@
   margin: 0 20px;
 }
 
-.nav-a:hover,
-.nav-a1:hover {
+.nav__link:hover,
+.nav__link--margin:hover {
   background: brown;
   color: white;
   transition: 0.3s;
   text-decoration: none;
 }
 
-.slider-index img {
+.slider__index img {
   width: 400px;
   height: 400px;
   object-fit: cover;
@@ -77,11 +73,10 @@
   border-radius: 20px 20px;
 }
 
-.apresentacao {
+.slider__text {
   color: white;
-  font-size: 20px;
-  padding-left: 40px;
-  
+  font-size: 23px;
+  padding-left: 40px;  
 }
 
 .container {
@@ -92,25 +87,25 @@
   display: none;
 }
 
-.funcionamento {
+.opening {
   padding-top: 20px;
 }
 
-.funcionamento-h1,
-.local-h1,
-.maintop-h1,
-.footer-h1,
-.cardapio-h1 {
+.opening__h1,
+.localization__h1,
+.tittle__h1,
+.social__h1,
+.cardapio__h1 {
   text-align: center;
   color: white;
   margin: 0;
 }
 
-.local-h1 {
+.localization__h1 {
   margin-top: 30px;
 }
 
-.funcionamento-h1-gradient {
+.opening__hours--gradient {
   font-size: 30px;
   text-align: center;
   background: -webkit-linear-gradient(54deg ,#ffb451, #ff5f1f);
@@ -118,13 +113,13 @@
   -webkit-text-fill-color: transparent;
 }
 
-.funcionamento-p {
+.opening__days {
   font-size: 25px;
   text-align: center;
   color: #fff;
   font-weight: 100;
 }
-.funcionamento-img img {
+.opening__img {
   width: 100%;
   height: 400px;
   border-radius: 20px 20px;
@@ -137,55 +132,49 @@
   width: 80vw;
 }
 
-.social-img {
+.social__img {
   width: 60px;
   margin: 0 20px;
 }
 
-.social-img:hover {
+.social__img:hover {
   filter: opacity(50%);
   filter: drop-shadow(0px 0px 10px #805635);}
 
-.tracejado {
+.burguer__dot {
   border-top: 3px dotted rgb(255, 221, 215);
   margin: 0 5px;
+}
+
+.carousel__h1 {
+  margin: 0;
 }
 
   
 
 @media (max-width: 941px) {
   
-  .apresentacao {
+  .slider__text {
     padding-left: 0;
     font-size: 20px;
     padding-top: 30px;
 
   }
 
-  .header-h1 {
+  .nav__h1 {
     display: none;
   }
 
-  .container, .funcionamento {
+  .container, .opening {
     margin-top: 0;
     padding-top: 0;
   }
 
-  .linha2 {
-    display: block;
-    border: none;
-    width: 70vw;
-    height: 5px;
-    background: rgba(201, 82, 35, 0.5);
-    border-radius: 10px 10px;
-    margin: 20px auto 20px auto;  
-  }
-
-  .funcionamento-h1-gradient {
+  .opening__hours--gradient {
     margin-bottom: 0;
   }
 
-  .nav-img {
+  .nav__img {
     display: none;
   }
 
@@ -193,19 +182,9 @@
     display: block;
   }
 
-  .delivery-h1 {
+  .delivery__h1 {
     text-align: center;
     color: white;
-  }
-
-  .linha3 {
-    display: block;
-    border: none;
-    width: 70vw;
-    height: 5px;
-    background: rgba(201, 82, 35, 0.5);
-    border-radius: 10px 10px;
-    margin: 0 auto 10px auto;      
   }
 
   .map {
@@ -213,16 +192,15 @@
     border-radius: 10px 10px;
   }
 
-  .cardapio-h1,
-  .carousel-h1,
-  .petiscos-h1,
-  .bebidas-h1,
-  .chamar-whats {
+  .cardapio__h1,
+  .carousel__h1,
+  .snacks__h1,
+  .drinks__h1,
+  .whatsapp__call {
     margin-top: 30px;
   }
 
-
-
-
-
+  .social__h1 {
+    padding-top: 30px;
+  }
 }
