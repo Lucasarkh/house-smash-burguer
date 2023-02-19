@@ -231,8 +231,15 @@
     border-radius: 10px 10px;
   }
 
-  .menu {
+  .cardapio-h1,
+  .carousel-h1,
+  .petiscos-h1,
+  .bebidas-h1,
+  .chamar-whats {
+    margin-top: 30px;
   }
+
+
 
 
 
