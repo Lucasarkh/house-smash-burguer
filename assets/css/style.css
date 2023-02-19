@@ -42,8 +42,13 @@
   color: #fff;
 }
 
+.header-h1 {
+  margin: 0;
+  font-size: 25px;
+}
+
 .nav-img {
-  width: 60px;
+  width: 40px;
   margin-left: 20px;
 }
 
@@ -53,17 +58,28 @@
 }
 .nav-a {
   color: #fff;
-  background: rgba(165, 42, 42, 0.342);
-  padding: 5px 15px;
-  border-radius: 10px 10px;
   text-decoration: none;
-  margin-left: 20px;
-  vertical-align: center;
+  background-color: #ffffff4f;
+  padding: 20px 20px 15px 20px;
+  border-radius: 20px 20px;
+  margin: 0 20px;
 }
 
-.nav-a:hover {
+.nav-a1 {
+  color: #fff;
+  text-decoration: none;
+  background-color: #ffffff4f;
+  padding: 20px 30px 15px 30px;
+  border-radius: 20px 20px;
+  margin: 0 20px;
+}
+
+.nav-a:hover,
+.nav-a1:hover {
   background: brown;
+  color: white;
   transition: 0.3s;
+  text-decoration: none;
 }
 
 .slider {
@@ -121,6 +137,10 @@
   color: white;
 }
 
+.local-h1 {
+  margin-top: 30px;
+}
+
 .funcionamento-h1-gradient {
   font-size: 30px;
   text-align: center;
@@ -145,6 +165,7 @@
 .map {
   border-radius: 20px 20px;
   height: 400px;
+  width: 80vw;
 }
 
 .social-img {
