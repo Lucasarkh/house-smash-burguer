@@ -126,7 +126,7 @@
   object-fit: cover;
 }
 
-.map {
+.map__link {
   border-radius: 20px 20px;
   height: 400px;
   width: 80vw;
@@ -148,9 +148,7 @@
 
 .carousel__h1 {
   margin: 0;
-}
-
-  
+} 
 
 @media (max-width: 941px) {
   
@@ -187,7 +185,7 @@
     color: white;
   }
 
-  .map {
+  .map__link {
     height: 300px;
     border-radius: 10px 10px;
   }
