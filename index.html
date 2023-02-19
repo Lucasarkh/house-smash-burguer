@@ -9,7 +9,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=League+Spartan:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
     <title>House Smash Burguer</title>
 </head>
 <body class="bg-color bg-rules">
@@ -35,7 +35,7 @@
         <section class="container">    
             <nav class="row">
                 <div class="col pt-3">
-                    <h1 class="maintop-h1 text-center">Muito mais do que um hamburguer</h1>
+                    <h1 class="maintop-h1 text-center text-warning">Muito mais do que um hamburguer</h1>
                 </div>
 
             </nav>
@@ -43,12 +43,29 @@
 
         <section class="container">
             <div class="row">
-                <div class="col-10 col-lg-6 slider">
-                    <img src="assets/img/img1.jpg" alt="Image 1" class="active">
-                    <img src="assets/img/img2.jpg" alt="Image 2">
-                    <img src="assets/img/img3.jpg" alt="Image 3">
+                <div id="carouselExampleAutoplaying" class="col-12 col-lg-6 carousel slide slider-index" data-bs-ride="carousel">
+                    <div class="carousel-inner">
+                      <div class="carousel-item active">
+                        <img src="assets/img/img1.jpg" class="d-block w-100" alt="imagem de lanche">
+                      </div>
+                      <div class="carousel-item">
+                        <img src="assets/img/img2.jpg" class="d-block w-100" alt="imagem de lanche">
+                      </div>
+                      <div class="carousel-item">
+                        <img src="assets/img/img3.jpg" class="d-block w-100" alt="imagem de lanche">
+                      </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
+                      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
+                      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Next</span>
+                    </button>
                 </div>
-                <div class="col col-lg-6 text-center align-middle">
+
+                <div class="col-12 col-lg-6 text-center align-middle">
                     <p class="apresentacao">Na House Smash Burguer oferecemos uma experiência única e irresistível de sabores artesanais em cada mordida. Cada hambúrguer é cuidadosamente preparado com ingredientes frescos e selecionados, combinados de forma a proporcionar uma explosão de sabores em seu paladar. Temos opções que atendem a todos os gostos, desde opções vegetarianas e veganas até as mais tradicionais, todas preparadas com um toque gourmet que é impossível resistir. Além disso, nosso ambiente é acolhedor e aconchegante, ideal para uma refeição casual ou uma ocasião especial com amigos e familiares. Venha nos visitar e experimente por si mesmo a perfeita harmonia de sabor e qualidade em cada hambúrguer que oferecemos!</p>                        
                 </div>                
             </div>
@@ -140,6 +157,7 @@
 
     </footer>
 
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.min.js" integrity="sha384-mQ93GR66B00ZXjt0YO5KlohRA5SY2XofN4zfuZxLkoj1gXtW8ANNCe9d5Y3eG5eD" crossorigin="anonymous"></script>
     <script src="assets/js/script.js"></script>
 </body>
 </html>
