@@ -96,8 +96,9 @@
 
 .apresentacao {
   color: white;
-  font-size: 15px;
+  font-size: 20px;
   padding-left: 40px;
+  
 }
 
 .container {
@@ -129,7 +130,7 @@
 }
 
 .funcionamento-p {
-  font-size: 20px;
+  font-size: 25px;
   text-align: center;
   color: #fff;
   font-weight: 100;
@@ -143,15 +144,24 @@
 
 .map {
   border-radius: 20px 20px;
-  width: 60vw;
   height: 400px;
 }
+
+.social-img {
+  width: 80px;
+  margin: 0 20px;
+}
+
+.social-img:hover {
+  filter: opacity(50%);
+  filter: drop-shadow(0px 0px 10px #805635);}
 
 @media (max-width: 941px) {
   
   .apresentacao {
     padding-left: 0;
     font-size: 20px;
+    padding-top: 30px;
 
   }
 
@@ -203,8 +213,6 @@
 
   .map {
     height: 300px;
-    width: 80vw;
-    margin-bottom: 30px;
     border-radius: 10px 10px;
   }
 
