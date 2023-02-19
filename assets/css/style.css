@@ -10,25 +10,6 @@
 
 }
 
-.linha {
-  border: none;
-  width: 70vw;
-  height: 5px;
-  background: rgba(201, 82, 35, 0.5);
-  border-radius: 10px 10px;
-  margin: 0 auto;
-}
-
-.linha2 {
-  display: none;
-  border: none;
-  width: 70vw;
-  height: 5px;
-  background: rgba(201, 82, 35, 0.5);
-  border-radius: 10px 10px;
-  margin: 0 auto;  
-}
-
 .linha3 {
   display: none;
 }
@@ -169,6 +150,7 @@
   border-top: 3px dotted rgb(255, 221, 215);
   margin: 0 5px;
 }
+
   
 
 @media (max-width: 941px) {
