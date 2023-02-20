@@ -139,7 +139,8 @@
 
 .social__img:hover {
   filter: opacity(50%);
-  filter: drop-shadow(0px 0px 10px #805635);}
+  filter: drop-shadow(0px 0px 10px #805635);
+}
 
 .burguer__dot {
   border-top: 3px dotted rgb(255, 221, 215);
@@ -149,6 +150,7 @@
 .carousel__h1 {
   margin: 0;
 } 
+
 
 @media (max-width: 941px) {
   
