@@ -36,60 +36,25 @@ Seção "Pedir pelo WhatsApp<br>
 
 ### Screenshots
 
-<p align="center"> ********** </p>
+<p align="center"> Home page </p>
 <p align="center">
-  <img align="center" src="**********************************" width="600" title="***">
+  <img align="center" src="https://github.com/Lucasarkh/house-smash-burguer/blob/main/screenshots/home.png" width="600" title="Imagem da "home page"">
 </p>
 
 <br>
 
-<p align="center"> ********** </p>
+<p align="center"> Página do cardápio </p>
 <p align="center">
-  <img align="center" src="**********************************" width="600" title="***">
+  <img align="center" src="https://github.com/Lucasarkh/house-smash-burguer/blob/main/screenshots/cardapio.png" width="600" title="imagem da pagina de "cardapio"">
 </p>
 
 <br>
 
-<p align="center"> ********** </p>
+<p align="center"> Responsividade mobile da página "Home" </p>
 <p align="center">
-  <img align="center" src="**********************************" width="600" title="***">
+  <img align="center" src="https://github.com/Lucasarkh/house-smash-burguer/blob/main/screenshots/mobile_home.png" width="350" title="Imagem da página "home" mobile">
+  <img align="center" src="https://github.com/Lucasarkh/house-smash-burguer/blob/main/screenshots/mobile_home.png" width="350" title="Imagem da página "cardápio" mobile">
 </p>
-
-<br>
-
-<p align="center"> ********** </p>
-<p align="center">
-  <img align="center" src="**********************************" width="600" title="***">
-</p>
-
-<br>
-
-<p align="center"> ********** </p>
-<p align="center">
-  <img align="center" src="**********************************" width="600" title="***">
-</p>
-
-<br>
-
-<p align="center"> ********** </p>
-<p align="center">
-  <img align="center" src="**********************************" width="600" title="***">
-</p>
-
-<br>
-
-<p align="center"> ********** </p>
-<p align="center">
-  <img align="center" src="**********************************" width="600" title="***">
-</p>
-
-<br>
-
-<p align="center"> ********** </p>
-<p align="center">
-  <img align="center" src="**********************************" width="600" title="***">
-</p>
-
 
 ### Links
 
