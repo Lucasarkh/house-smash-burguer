@@ -52,9 +52,9 @@ Seção "Pedir pelo WhatsApp<br>
 
 <p align="center"> Responsividade </p>
 <p align="center">
-  <img align="center" src="https://github.com/Lucasarkh/house-smash-burguer/blob/main/screenshots/mobile_home.png" width="350" title="Imagem da página home mobile">
+  <img align="center" src="https://github.com/Lucasarkh/house-smash-burguer/blob/main/screenshots/mobile_home.png" width="200" title="Imagem da página home mobile">
   <code>&nbsp;</code>
-  <img align="center" src="https://github.com/Lucasarkh/house-smash-burguer/blob/main/screenshots/cardapio_mobile.png" width="350" title="Imagem da página cardápio mobile">
+  <img align="center" src="https://github.com/Lucasarkh/house-smash-burguer/blob/main/screenshots/cardapio_mobile.png" width="200" title="Imagem da página cardápio mobile">
 </p>
 
 ### Links
